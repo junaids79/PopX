@@ -1,0 +1,41 @@
+.login-container {
+    padding: 30px;
+    height: 100%;
+  }
+  
+  .login-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .subtitle {
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .login-button {
+    background-color: #6c25ff;
+    color: white;
+    margin-top: 30px;
+  }

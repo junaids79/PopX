@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Push content to bottom */
+    height: 100vh;
+    padding: 40px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #111111;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    line-height: 1.4;
+    margin: 0;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 40px;
+  }
+  
+  .primaryButton {
+    padding: 14px;
+    background-color: #6c25ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .secondaryButton {
+    padding: 14px;
+    background-color: #ceb0ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Hover effects */
+  .primaryButton:hover {
+    background-color: #5a1ad6;
+  }
+  
+  .secondaryButton:hover {
+    background-color: #b89be6;
+  }

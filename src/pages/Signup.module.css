@@ -1,0 +1,116 @@
+.container {
+    padding: 30px;
+    max-width: 375px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #111;
+    text-align: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #111;
+  }
+  
+  .input {
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #111;
+  }
+  
+  .input::placeholder {
+    color: #999;
+  }
+  
+  .radioGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .radioLabel {
+    font-size: 14px;
+    font-weight: 500;
+    color: #111;
+  }
+  
+  .radioOptions {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .radioOption {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #111;
+    cursor: pointer;
+  }
+  
+  .radioButton {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .radioOption input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .radioOption input[type="radio"]:checked + .radioButton::after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    background-color: #6c25ff;
+    border-radius: 50%;
+  }
+  
+  .submitButton {
+    padding: 12px;
+    background-color: #6c25ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .submitButton:hover {
+    background-color: #5a1ad6;
+  }
+  
+  /* Add asterisk to required fields */
+  .label[for]:after {
+    content: " *";
+    color: #ff0000;
+  }
